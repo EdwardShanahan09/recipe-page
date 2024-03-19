@@ -2,3 +2,22 @@ h1,
 h2 {
   font-family: $fontFamilyHeadings;
 }
+
+.heading-1 {
+  font-size: 3.6rem;
+  margin-bottom: 2.4rem;
+
+  @media (min-width: 900px) {
+    font-size: 4rem;
+  }
+}
+
+.heading-2 {
+  color: $colorNutbeg;
+  font-weight: 400;
+  font-size: 2.8rem;
+
+  @media (min-width: 900px) {
+    margin-bottom: 2.4rem;
+  }
+}
