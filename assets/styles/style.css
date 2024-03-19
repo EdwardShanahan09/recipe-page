@@ -62,3 +62,11 @@ h2 {
   @media (min-width: 900px) {
     .recipe__container {
       padding: 0 4rem; } }
+
+.recipe__info {
+  margin-bottom: 3.2rem; }
+
+.recipe__description {
+  color: #5f574e;
+  font-size: 1.6rem;
+  line-height: 150%; }
