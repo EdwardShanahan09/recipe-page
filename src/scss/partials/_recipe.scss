@@ -3,11 +3,14 @@
     background-color: $colorWhite;
     border-radius: 24px;
     width: 736px;
+    padding: 4rem;
   }
+
   &__image {
     @media (min-width: 900px) {
-      padding: 4rem;
+      margin-bottom: 4rem;
     }
+
     & img {
       width: 100%;
 
