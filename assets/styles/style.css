@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit&family=Young+Serif&display=swap");
+html {
+  font-size: 62.5%; }
+
+*::before,
+*,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 body {
   font-family: "Outfit", sans-serif; }
 
