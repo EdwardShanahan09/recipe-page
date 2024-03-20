@@ -70,3 +70,22 @@ h2 {
   color: #5f574e;
   font-size: 1.6rem;
   line-height: 150%; }
+
+.recipe__prep {
+  background-color: #fff5fa;
+  padding: 2.4rem;
+  margin-bottom: 3.2rem; }
+  .recipe__prep-list {
+    margin-left: 3.2rem; }
+    .recipe__prep-list li {
+      color: #5f574e;
+      font-size: 1.6rem;
+      margin-bottom: 0.8rem; }
+      .recipe__prep-list li::marker {
+        color: #7b284f; }
+
+.recipe h3 {
+  color: #7b284f;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.6rem; }
