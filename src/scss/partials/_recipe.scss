@@ -58,6 +58,29 @@
     }
   }
 
+  &__ingredients {
+    margin-bottom: 3.2rem;
+    &-list {
+      margin-left: 2.4rem;
+      & li {
+        color: $colorBrown;
+        font-size: 1.6rem;
+        margin-bottom: 0.8rem;
+
+        &::marker {
+          color: $colorRaspberry;
+        }
+      }
+    }
+  }
+
+  &__break {
+    background-color: $colorLightGrey;
+    height: 0.1rem;
+    margin-bottom: 3.2rem;
+    width: 100%;
+  }
+
   & h3 {
     color: $colorRaspberry;
     font-size: 2rem;

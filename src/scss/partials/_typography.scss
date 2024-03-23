@@ -16,8 +16,5 @@ h2 {
   color: $colorNutbeg;
   font-weight: 400;
   font-size: 2.8rem;
-
-  @media (min-width: 900px) {
-    margin-bottom: 2.4rem;
-  }
+  margin-bottom: 2.4rem;
 }

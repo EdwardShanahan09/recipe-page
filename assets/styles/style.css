@@ -35,10 +35,8 @@ h2 {
 .heading-2 {
   color: #854632;
   font-weight: 400;
-  font-size: 2.8rem; }
-  @media (min-width: 900px) {
-    .heading-2 {
-      margin-bottom: 2.4rem; } }
+  font-size: 2.8rem;
+  margin-bottom: 2.4rem; }
 
 @media (min-width: 900px) {
   .recipe {
@@ -83,6 +81,23 @@ h2 {
       margin-bottom: 0.8rem; }
       .recipe__prep-list li::marker {
         color: #7b284f; }
+
+.recipe__ingredients {
+  margin-bottom: 3.2rem; }
+  .recipe__ingredients-list {
+    margin-left: 2.4rem; }
+    .recipe__ingredients-list li {
+      color: #5f574e;
+      font-size: 1.6rem;
+      margin-bottom: 0.8rem; }
+      .recipe__ingredients-list li::marker {
+        color: #7b284f; }
+
+.recipe__break {
+  background-color: #e4ded8;
+  height: 0.1rem;
+  margin-bottom: 3.2rem;
+  width: 100%; }
 
 .recipe h3 {
   color: #7b284f;
