@@ -118,3 +118,21 @@ h2 {
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 1.6rem; }
+
+.recipe__nutrition p {
+  color: #5f574e;
+  font-size: 1.6rem;
+  margin-bottom: 2.4rem; }
+
+.recipe__nutrition-list {
+  list-style: none; }
+  .recipe__nutrition-list li {
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 3.2rem 1.2rem 3.2rem; }
+
+.recipe__nutrition-vlues {
+  color: #7b284f;
+  font-weight: 800; }

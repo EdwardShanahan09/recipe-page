@@ -107,4 +107,28 @@
     font-weight: 600;
     margin-bottom: 1.6rem;
   }
+
+  &__nutrition {
+    & p {
+      color: $colorBrown;
+      font-size: 1.6rem;
+      margin-bottom: 2.4rem;
+    }
+    &-list {
+      list-style: none;
+
+      & li {
+        font-size: 1.6rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0 3.2rem 1.2rem 3.2rem;
+      }
+    }
+
+    &-vlues {
+      color: $colorRaspberry;
+      font-weight: 800;
+    }
+  }
 }
